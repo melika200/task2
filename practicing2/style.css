@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar-header{
+    background-image: url("blue-bg.jpg");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60px;
+}
+.container{
+    @apply flex
+    flex-row
+    justify-between
+    m-auto
+    pt-5;
+    width: 90%;
+}
+.text-left{
+    @apply text-slate-700
+}
+.text-right{
+    @apply text-slate-700
+}
+.text-right-between{
+    @apply mx-5
+}
